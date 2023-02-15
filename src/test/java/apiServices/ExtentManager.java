@@ -37,7 +37,7 @@ public class ExtentManager {
 
         htmlReporter.config().setTimeStampFormat("MM/dd/yyyy hh:mm:ss a");
         extent = new ExtentReports();
-        extent.setSystemInfo("Created By", "Jagannatha");
+        extent.setSystemInfo("Created By", "Jatin Bakshi");
         extent.setSystemInfo("Autmation Type", "API");
         extent.attachReporter(htmlReporter);
     }
